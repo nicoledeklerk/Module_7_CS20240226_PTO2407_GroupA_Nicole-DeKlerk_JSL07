@@ -29,9 +29,18 @@ document.addEventListener('DOMContentLoaded', function () {
       } // Fallback to "a course" if no input
   
       // 🚨 Generate certificate content dynamically
-      certificateContent. = `
+      certificateContent.innerHTML = `
+      <div>
+      <h2>Certificate of Achievement</h2>
+      <p>this is to certify that</p>
       <h3>${studentName}</h3>
-    `;
+      <p>has almost completed the</p>
+      <h3>${courseName}</h3>
+      <p>with legendary perseverance and world-class bad/assery for never giving up🏆</p>
+      <img>
+      <p>${personalMessage}</p>
+      </div>
+      `;
     
       //  Display the modal
       modal.style.display = 'block';
