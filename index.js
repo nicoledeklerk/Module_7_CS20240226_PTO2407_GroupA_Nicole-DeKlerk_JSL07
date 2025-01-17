@@ -32,12 +32,12 @@ document.addEventListener('DOMContentLoaded', function () {
       certificateContent.innerHTML = `
       <div>
       <h2>Certificate of Achievement</h2>
-      <p>this is to certify that</p>
+      <p>This is to certify that</p>
       <h3>${studentName}</h3>
       <p>has almost completed the</p>
       <h3>${courseName}</h3>
       <p>with legendary perseverance and world-class bad-assery for never giving up🏆</p>
-      <img src = 'logo.png' style = 'width: 400px; height: 200px;'>
+      <img src = 'logo.png' style = 'width: 250px;'>
       <p>${personalMessage}</p>
       </div>
       `;

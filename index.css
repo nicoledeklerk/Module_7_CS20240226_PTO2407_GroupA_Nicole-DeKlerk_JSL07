@@ -43,8 +43,9 @@ button:hover {
 
 .modal {
     display: none;
-    max-width: 800px;
-    margin: 0 auto; /* Center horizontally */
+    max-width: 700px;
+    max-height: 65%;
+    margin: 0 auto 100px auto; /* Center horizontally */
     position: fixed;
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
@@ -54,7 +55,7 @@ button:hover {
   
   .modal-content {
     background-color: #fff;
-    padding: 40px;
+    padding: 20px 30px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     position: relative;
@@ -84,11 +85,11 @@ button:hover {
 #certificateContent {
   font-family: 'Raleway', serif;
   color: #333;
-  padding: 20px;
+  padding: 10px 30px;
   background-color: #f9f9f9;
   border: 2px solid #dc7f5f;
   border-radius: 10px;
-  margin: 20px 0;
+  margin: 5px 0 20px 0;
 }
 
 h1, .modal-content h2, .modal-content p, .modal-content h3, .modal-content h4 {
